@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjana Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+              
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#portfolio">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul> 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            
+                <h1>Hi, I'm <span>Sanjana HP</span></h1>
+                  <br>
+                <p>This is my resume</p>
+            </div>
+        </div>
+        
+    </div>
+<!---------------------about----------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                     <img src="images/sanjana.jpeg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> To obtain a dynamic position in a reputable organization, utilizing my skills to contribute to the
+                        Company’s success. With strong analytical and problem-solving abilities, I strive to drive innovation and 
+                        make a positive impact.I am eager to join a dynamic team. Continuously learn, Grow in my career.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('personal_details')">Personal Details</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML5</span><br>Intermediate Level</li>
+                            <li><span>CSS</span><br>Intermediate Level</li>
+                            <li><span>JavaScript</span><br>Beginner Level</li>
+                            <li><span>Python</span><br>Intermediate Level</li>
+                            <li><span>C</span><br>Intermediate Level</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="certificates">
+                        <ul>
+                           
+                            
+                            <li><span>Web Designe For Beginners:Real World Coding in HTML & CSS</span><br>UDEMY</li>
+                            <li><span>Python For Data Science</span><br>INFOSYS SPRINGBOARD</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>Computer Science and Engineering at 
+                                Channabasaveshwara Institute of Technology</li>
+                            <li><span>2018 - 2020</span><br>Class XII at
+                                Siddaganga Women's PU College</li>
+                            <li><span>2006- 2018</span><br>Class X at
+                                Shubhodaya English School</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="personal_details">
+                        <ul>
+                            <li><span>Father Name</span><br> Panchaksharaiah
+                                </li>
+                            <li><span>Mother Name</span><br> Shylaja
+                                </li>
+                            <li><span>Date-of-birth</span><br>11-June-2002
+                               </li>
+                            <li><span>Address</span><br>Tumkur
+                                </li>
+                            <li><span>Nationality</span><br>Indian
+                                </li>
+                            <li><span>Blood-group</span><br>B Positive(B+ve)
+                                </li>
+                            
+                        </ul>
+                    </div>
+
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------projects---------------------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h2>Online Job Portal System </h2>
+                    <p>------------DBMS Mini Project------------</p>
+                    <br>
+                    <p>Developed a Online Job Portal Management System mini project utilizing HTML, 
+                        CSS, and JavaScript as a Front-End, and MySQL and PHP as a Back-EndOnline Job Portal System is aimed at developing an online search Portal for the  
+                        Placement Details  for jobseekers.
+                        </p>
+
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-couch"></i>  
+                    <h2>My Furniture App</h2>
+                    <p>------------MAD Mini Project------------</p>
+                    <br>
+                    <p>The Furniture App is a mobile application designed to enhance the furniture
+                        shopping experience for users. Developed as part of the Mobile Application
+                        Development (MAD) Lab project, the app aims to provide a convenient
+                        platform for users to browse, select, and purchase furniture items, as well as
+                        visualize how they would look in their own space.</p>
+                </div>
+
+                <div>
+                    
+                    <i class="fa-solid fa-book-open"></i> 
+                    <h2>Bucket Sort </h2>
+                    <p>------------Computer Graphics and Visualization Mini Project------------</p>
+                    <br>
+                    <p> Bucket Sort is a sorting algorithm that can be effectively applied to 
+                        computer graphics and visualization tasks, where arranging elements in a
+                        specific order is crucial for creating visually appealing and efficient representations of data. </p>
+                </div>
+
+               
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------------protfolio----------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="certificate-list">
+                <div class="certificate">
+                    <img src="images/HTML.png">
+                </div>
+                <div class="certificate">
+                    <img src="images/python.png">
+                </div>
+               
+                
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------------contact----------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-envelope"></i><a href="mailto:">sanjanahp2020@gmail.com</a></p>
+                   <p><i class="fa-solid fa-phone"></i><a href="tel:">8217762899</a></p>
+                   <div class="social-icon">
+                      <a href="https://instagram.com/__iamsanjana___?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fa-brands fa-square-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/sanjana-hp-28b363285"><i class="fa-brands fa-linkedin"></i></a>
+                      <a href="https://github.com/Sanjanahp219"><i class="fa-brands fa-github"></i></a>
+                   </div>
+
+                   <a href="images/SANJANA_HP_RESUME.pdf" download class="button button2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="button button2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabconten of tabcontents){
+                tabconten.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
